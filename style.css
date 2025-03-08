@@ -1,0 +1,68 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: white;
+    color: black;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Container for Centered Content */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    width: 40%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* File Input Styling */
+input[type="file"] {
+    display: none;
+}
+
+/* Custom File Upload Button */
+.file-label {
+    display: inline-block;
+    background: white;
+    color: #ff4b2b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.file-label:hover {
+    background: #ff4b2b;
+    color: white;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background: white;
+    color: #ff4b2b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #ff4b2b;
+    color: white;
+}
